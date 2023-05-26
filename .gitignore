@@ -19,3 +19,9 @@
 
 # Go workspace file
 go.work
+
+./input
+./output
+input
+output
+.devcontainer/devcontainer.json
