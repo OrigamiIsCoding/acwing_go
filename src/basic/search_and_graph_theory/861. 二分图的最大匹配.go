@@ -26,6 +26,7 @@ func add(a, b int) {
 }
 
 func find(u int) bool {
+	st[u] = true
 	for i := g[u]; i != -1; i = ne[i] {
 		j := e[i]
 		if !st[j] {
